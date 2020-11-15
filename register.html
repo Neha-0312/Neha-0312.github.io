@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fruit Basket</title>
+
+    <!-- Bootstrap -->
+    
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link type="text/css" rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="home.css" rel="stylesheet">
+    <script src="home.js"> </script>
+    
+  </head>
+
+  <body>
+   
+           
+<!--Navigation bar-->
+<nav class="navbar navbar-default ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navcollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        
+      </button>
+      <a class="navbar-brand" href=""><b class="logo">Edutech</b></a>
+    </div>
+
+    <!--Collapse Navbar-->
+    <div class="collapse navbar-collapse" id="navcollapse">
+    <ul class="nav navbar-nav">
+       <li ><a href="">Live classes</a></li>
+      <li >
+        <div class="dropdown dropdown1">
+               <a class="dropdown-toggle" data-toggle="dropdown">Courses</a>
+               <ul class="dropdown-menu">
+                       <li><a href="">Coding</a></li>
+                       <li><a href="">English</a></li>
+                       <li><a href="">Maths</a></li>
+                       <li><a href="">Science</a></li>
+               </ul>
+         </div>
+      </li>
+     
+      <li><a href="">Video Library</a></li>
+      <li><a href="">About us</a></li>
+      <li class="active"><a href="register.html">Register</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+      <li><a href=""><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+    </ul>
+    
+      
+    <form class="navbar-form navbar-right">
+      <div class="form-group">
+        <button class="btn btn-info">Book a free class</button>
+      </div>
+    </form>
+  </div>
+
+
+  </div>
+</nav>
+
+
+<div class="register">
+  <h1><span><b>Edutech</b></span> Learning</h1>
+  <div class="reg1">
+    <h3>Create Account</h3>
+    <br>
+    <form onSubmit=" return validateemail()">
+      <label for="firstname">Enter first Name: </label>
+      <input type="text" id="firstname" name="first_name" placeholder="Firstname">
+      <br><br>
+      <label for="lastname">Enter last Name: </label>
+      <input type="text" id="lastname" name="last_name" placeholder="Lastname">
+      <br><br>
+      <label for="name">Enter username:</label>
+      <input type="text" id="name" name="username" placeholder="username">
+      <br><br>
+      <label for="email">Enter your Email:</label>
+      <input type="email" id="email" name="email" placeholder="something@gmail.com">
+      <label id="lbemail" style="color: cyan;visibility: hidden;">Invalid EMail</label>
+    
+      <br><br>
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" name="password1" placeholder="password">
+      <br><br>
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="password" name="password1" placeholder="password">
+      <br><br>
+      <button class="btn btn-success" type="submit" value="Submit">Register</button>
+      <br><br>
+
+    </form>
+    <p>Already have an account?<a href="login.html">  Log in</a></p>
+  </div>
+  </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+     <script src="jquery-3.5.1.js"></script>
+  <script src="jquery-ui/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+        });
+   </script>
+  </body>
+</html>

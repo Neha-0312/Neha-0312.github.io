@@ -1,0 +1,247 @@
+.dropdown1{
+	padding-top: 15px;
+	color:black;
+	padding:15px;
+
+}
+.logo{
+	color:rgb(0,51,102);
+	font-size: 30px;
+	font-family: italic;
+}
+.play-btn{
+	position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75px;
+    height: 75px;
+	
+
+}
+.btn-info{
+	border-radius: 40px;
+	width: 160px;
+	background-color: #fff;
+	color: #000;
+}
+.modal-header{
+	background-color: #fff;
+}
+.heading{
+	font-size: 50px;
+}
+
+.headbtn{
+	background-color: rgb(0,51,102);
+	color: #fff;
+}
+.headbtn:hover{
+	background-color:#fff ;
+	color: rgb(0,51,102);
+
+}
+.colu1,.colu2,.colu3{
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+}
+
+
+.colu13{
+	border:solid 2px silver;
+	height: 400px;
+	padding: 10px;
+}
+
+.footer1{
+	text-align: center;
+	margin-top:0px;
+	margin:3px;
+	color: #fff;
+	padding-top: 50px;
+
+}
+.foot{
+
+	border-top: solid 1px silver;
+	min-height: 400px;
+	background-color: rgb(0,25,51);
+	color: #fff;
+}
+.footer1 p{
+	color:#fff;
+}
+
+
+
+
+.item h3{
+	font-size: 40px;
+	font-family: arial;
+}
+.register{
+	text-align:center;
+
+}
+.register span{
+	color: orange;
+}
+.register h1{
+	color:green;
+}
+.reg1{
+	margin-left: 550px;
+	margin-right: 550px;
+	border:solid 2px black;
+	height:500px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.login{
+	text-align: center;
+}
+.login span{
+	color: orange;
+}
+.login h1{
+	color:green;
+}
+.log1{
+	margin-left: 550px;
+	margin-right: 550px;
+	border:solid 2px black;
+	height:300px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.reg1{
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.log1{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.heading {
+
+
+    font-size: 30px;
+    
+}
+.info{
+	display: none;
+}
+.colu1,.colu2,.colu3{
+	min-height: 120px;
+}
+.sub1{
+  float: left;
+  width: 20%;
+}
+.sub2{
+	float: left;
+  width: 80%;
+}
+.colu6{
+  float: left;
+  width: 10%;
+}
+.colu7{
+	float: left;
+  width: 90%;
+}
+.sub2 p{
+	font-size:10px;
+}
+.sub2 h1{
+	font-size: 20px;
+}
+.headd{
+	font-size: 30px;
+}
+.colu7 h3{
+	font-size: 20px;
+}
+.colu8 img,.colu9 img,.colu10 img{
+   width:100px;
+   height: 100px;
+}
+.colu8{
+	float: left;
+	width:33%;
+}
+.colu9{
+	float: left;
+	width:33%;
+}
+.colu10{
+	float: left;
+	width:33%;
+}
+.colu12 h3{
+	font-size: 20px;
+}
+.subf1,.subf2,.subf3{
+	text-align: center;
+}
+
+
+
+
+}
+@media only screen and (max-width: 1000px)
+{
+.reg1{
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+.log1{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	.sub1{
+  float: left;
+  width: 20%;
+}
+.sub2{
+	float: left;
+  width: 80%;
+}
+.colu6{
+  float: left;
+  width: 10%;
+}
+.colu7{
+	float: left;
+  width: 90%;
+}
+.sub2 p{
+	font-size:10px;
+}
+.sub2 h1{
+	font-size: 20px;
+}
+.colu8{
+	float: left;
+	width:33%;
+}
+.colu9{
+	float: left;
+	width:33%;
+}
+.colu10{
+	float: left;
+	width:33%;
+}
+
+}
